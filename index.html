@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Momentum</title>
+</head>
+
+<body>
+    <form id="login-form" class="hidden">
+        <h2>안녕, 이름이 뭐니?</h2>
+        <input required maxlength="10" type="text" placeholder="What is your Name?" />
+    </form>
+    <main class="main-title hidden">
+        <div class="main-title__clock">
+            <h2 id="clock"></h2>
+            <h2 id="ampm"></h2>
+        </div>
+        <h1 id="greeting" class="hidden"></h1>
+    </main>
+    <div class="todo-main hidden">
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do an Press Enter" />
+
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <div id="quote" class="hidden">
+        <div id="quotes-column">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div id="weather-main">
+        <div id="weather-main__row">
+            <span id="country"></span>
+            <span id="city"></span>
+        </div>
+        <span id="weather"></span>
+    </div>
+    <div id="bgimg">
+
+    </div>
+    <script src="js\greeting.js"></script>
+    <script src="js\clock.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>
